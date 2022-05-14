@@ -19,7 +19,6 @@
     </head>
     <body >
         
-        <div id='react-app'></div>
-        <script src="{{mix('js/app.js')}}"></script>
+        @yield('content')
     </body>
 </html>
