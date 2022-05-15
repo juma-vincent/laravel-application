@@ -13,7 +13,7 @@ class RegisterController extends Controller
     public function store(Request $request){
         //Validate the data first
         validate($request, [
-            'email'=> 'required',
+            'email'=> 'required|email',
             'username'=>'required',
             'password'=> 'required|min:10' //minimum of 10 characters
         ]);
