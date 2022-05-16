@@ -8,7 +8,7 @@
         
 		<label for='email'>Email</label>
 		<input type='email' name='email' />
-
+		@error
         <label for='username'>Username</label>
 		<input type='text' name='username' />
 
