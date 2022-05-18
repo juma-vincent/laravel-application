@@ -7,7 +7,7 @@
 
         
 		<label for='email'>Email</label>
-		<input type='email' name='email' />
+		<input type='email' name='email' placehoder='Enter email'/>
 		
         <label for='username'>Username</label>
 		<input type='text' name='username' />
