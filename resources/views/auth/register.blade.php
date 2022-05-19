@@ -11,6 +11,7 @@
 		
         <label for='username'>Username</label>
 		<input type='text' name='username' />
+		@error
 
         <label for='password'>Password</label>
 		<input type='password' name='password' />
